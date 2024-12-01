@@ -39,18 +39,12 @@ if st.button('Recommend Movie'):
                            (df['Mood'] == user_input['Mood']) & 
                            (df['Preferred Genre'] == user_input['Preferred Genre']) & 
                            (df['Preferred Genre'] != 'Horror')]['Movie Recommendation'].unique()
-
     if len(movie_choices) > 0:
         recommended_movie = np.random.choice(movie_choices)
-        
         st.session_state.recommended_movie = recommended_movie
-        
         st.write(f"**Recommended Movie:** {recommended_movie}")
-        
-
     else:
         st.write("No movies available for the selected options.")
-
 st.markdown(
     """
     ---
