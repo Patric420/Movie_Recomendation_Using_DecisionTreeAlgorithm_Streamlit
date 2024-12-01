@@ -54,7 +54,7 @@ if st.button('Recommend Movie'):
 st.markdown(
     """
     ---
-    ### Connect with me on [LinkedIn](https://www.linkedin.com/in/your-profile)
+    ## Connect with me on [LinkedIn](https://www.linkedin.com/in/your-profile)
     """,
     unsafe_allow_html=True
 )
