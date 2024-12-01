@@ -20,7 +20,7 @@ st.header("Get a Movie Recommendation Based on Your Preferences")
 
 age = st.selectbox('Select Age Group', ['Child', 'Teen', 'Adult', 'Senior'])
 mood = st.selectbox('Select Mood', ['Happy', 'Sad', 'Excited', 'Relaxed'])
-preferred_genre = st.selectbox('Select Preferred Genre', ['Comedy', 'Action', 'Romance', 'Drama', 'Animation', 'Adventure', 'Fantasy', 'Horror', 'Documentary', 'Thriller'])
+preferred_genre = st.selectbox('Select Preferred Genre', ['Comedy', 'Action', 'Romance', 'Drama', 'Animation', 'Adventure', 'Horror', 'Documentary', 'Thriller'])
 
 user_input = {
     'Age': age,
