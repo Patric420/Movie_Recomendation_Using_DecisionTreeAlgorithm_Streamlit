@@ -1,5 +1,8 @@
 # Movie Recommender System
 
+
+![Movie Recommender System](capture.png)
+
 This project is a **Movie Recommender System** built using **Streamlit** and **scikit-learn**. It predicts movie recommendations based on user preferences such as age group, mood, and preferred genre.
 
 ## Features
