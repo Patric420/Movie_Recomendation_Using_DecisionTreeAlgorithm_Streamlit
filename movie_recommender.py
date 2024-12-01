@@ -5,6 +5,14 @@ from sklearn.model_selection import train_test_split
 from sklearn import tree
 import matplotlib.pyplot as plt
 import numpy as np
+import st_state_patch
+
+
+s = st.GlobalState(key="user metadata")
+if not s:
+    s.counter = 0
+s.counter += 1
+st.markdown(f'Page viewed = {s.counter}')
 
 df = pd.read_csv('movie_recommender.csv')
 
