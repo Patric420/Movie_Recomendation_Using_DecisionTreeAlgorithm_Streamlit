@@ -51,3 +51,10 @@ if st.button('Recommend Movie'):
     else:
         st.write("No movies available for the selected options.")
 
+st.markdown(
+    """
+    ---
+    ### Connect with me on [LinkedIn](https://www.linkedin.com/in/your-profile)
+    """,
+    unsafe_allow_html=True
+)
