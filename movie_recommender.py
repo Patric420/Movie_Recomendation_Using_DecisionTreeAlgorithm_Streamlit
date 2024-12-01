@@ -2,7 +2,6 @@ import streamlit as st
 import pandas as pd
 from sklearn.tree import DecisionTreeClassifier
 import numpy as np
-import pyperclip
 
 df = pd.read_csv('movie_recommender.csv')
 
