@@ -44,7 +44,7 @@ if st.button('Recommend Movie'):
 
     if len(movie_choices) > 0:
         recommended_movie = np.random.choice(movie_choices)  
-        st.write(f"**Recommended Movie:** {st.code(recommended_movie, language="python")}")
+        st.write(f"**Recommended Movie:** {recommended_movie}")
     else:
         st.write("No movies available for the selected options.")
 
