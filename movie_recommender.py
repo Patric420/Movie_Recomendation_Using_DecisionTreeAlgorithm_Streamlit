@@ -12,7 +12,7 @@ y = df['Movie Recommendation']
 model = DecisionTreeClassifier(random_state=42)
 model.fit(X, y)
 
-st.title("Movie Recommender System")
+st.title("Movie Recommender Machine Learning System")
 st.header("Get a Movie Recommendation Based on Your Preferences")
 
 age = st.selectbox('Select Age Group', ['Child', 'Teen', 'Adult', 'Senior'])
