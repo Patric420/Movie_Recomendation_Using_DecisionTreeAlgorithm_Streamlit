@@ -1,0 +1,147 @@
+Age,Mood,Preferred Genre,Movie Recommendation
+Child,Happy,Comedy,Minions
+Child,Sad,Animation,Frozen
+Child,Excited,Adventure,The Lion King
+Child,Relaxed,Fantasy,Harry Potter
+Child,Happy,Action,Spider-Man: Into the Spider-Verse
+Child,Sad,Drama,The Iron Giant
+Child,Relaxed,Animation,Trolls
+Teen,Excited,Action,Avengers
+Teen,Happy,Romance,To All the Boys
+Teen,Sad,Drama,The Fault in Our Stars
+Teen,Relaxed,Comedy,The Kissing Booth
+Teen,Excited,Adventure,Jumanji
+Teen,Happy,Comedy,Mean Girls
+Teen,Sad,Horror,The Conjuring
+Teen,Relaxed,Romance,10 Things I Hate About You
+Teen,Excited,Fantasy,A Wrinkle in Time
+Teen,Sad,Documentary,13th
+Teen,Happy,Thriller,The Hunger Games
+Teen,Relaxed,Drama,The Perks of Being a Wallflower
+Teen,Sad,Romance,The Last Song
+Adult,Relaxed,Drama,The Notebook
+Adult,Excited,Horror,It
+Adult,Sad,Documentary,Free Solo
+Adult,Happy,Comedy,The Hangover
+Adult,Relaxed,Romance,La La Land
+Adult,Excited,Thriller,Inception
+Adult,Happy,Action,Mad Max: Fury Road
+Adult,Excited,Comedy,21 Jump Street
+Adult,Sad,Romance,Pride and Prejudice
+Adult,Excited,Action,John Wick
+Adult,Sad,Documentary,Won't You Be My Neighbor?
+Adult,Happy,Fantasy,The Lord of the Rings
+Adult,Relaxed,Horror,Get Out
+Adult,Sad,Adventure,Into the Wild
+Adult,Happy,Thriller,Shutter Island
+Senior,Relaxed,Drama,The Shawshank Redemption
+Senior,Sad,Documentary,The Last Dance
+Senior,Happy,Comedy,The Intern
+Senior,Excited,Action,Die Hard
+Senior,Relaxed,Romance,The Best Exotic Marigold Hotel
+Senior,Sad,Drama,Gran Torino
+Senior,Excited,Adventure,Indiana Jones
+Senior,Relaxed,Comedy,Groundhog Day
+Senior,Happy,Romance,The Proposal
+Senior,Excited,Fantasy,The Hobbit
+Senior,Sad,Horror,The Sixth Sense
+Senior,Relaxed,Action,The Fugitive
+Senior,Excited,Thriller,The Fugitive
+Senior,Relaxed,Drama,Forrest Gump
+Senior,Happy,Comedy,The Bucket List
+Child,Happy,Action,The Incredibles
+Child,Excited,Fantasy,The Chronicles of Narnia
+Child,Sad,Animation,Zootopia
+Teen,Excited,Action,Guardians of the Galaxy
+Teen,Happy,Romance,Love Simon
+Teen,Sad,Horror,The Babadook
+Teen,Excited,Adventure,Star Wars: A New Hope
+Teen,Sad,Thriller,The Purge
+Adult,Happy,Action,The Dark Knight
+Adult,Excited,Comedy,Superbad
+Adult,Sad,Documentary,Won't You Be My Neighbor?
+Adult,Relaxed,Action,The Bourne Identity
+Senior,Excited,Comedy,The Grand Budapest Hotel
+Senior,Happy,Drama,Forrest Gump
+Senior,Sad,Romance,The English Patient
+Senior,Relaxed,Action,The Martian
+Senior,Happy,Comedy,The Proposal
+Adult,Sad,Drama,Revolutionary Road
+Adult,Excited,Romance,Crazy Stupid Love
+Adult,Relaxed,Fantasy,The Green Mile
+Child,Excited,Comedy,Ratatouille
+Child,Sad,Drama,Big Hero 6
+Teen,Relaxed,Romance,The Fault in Our Stars
+Teen,Happy,Action,Spider-Man: Homecoming
+Teen,Excited,Comedy,Pitch Perfect
+Teen,Happy,Thriller,Scream
+Adult,Sad,Comedy,The Pursuit of Happyness
+Adult,Happy,Thriller,Ocean’s Eleven
+Senior,Excited,Fantasy,The Matrix
+Senior,Relaxed,Action,John Wick 3
+Senior,Sad,Comedy,The Bucket List
+Senior,Excited,Romance,The Notebook
+Adult,Relaxed,Drama,A Walk to Remember
+Teen,Happy,Action,Skyfall
+Teen,Excited,Adventure,The Maze Runner
+Child,Happy,Comedy,The Angry Birds Movie
+Child,Sad,Adventure,Up
+Teen,Excited,Action,Deadpool
+Adult,Relaxed,Drama,The Reader
+Adult,Happy,Comedy,Bridesmaids
+Senior,Sad,Horror,The Others
+Senior,Happy,Fantasy,The Chronicles of Narnia
+Senior,Relaxed,Comedy,The Simpsons Movie
+Senior,Excited,Thriller,The Bourne Ultimatum
+Child,Relaxed,Animation,Shrek
+Teen,Happy,Romance,The Spectacular Now
+Adult,Sad,Documentary,Won't You Be My Neighbor?
+Adult,Happy,Fantasy,Hunger Games: Catching Fire
+Senior,Sad,Romance,The Fault in Our Stars
+Teen,Excited,Action,Furious 7
+Teen,Sad,Adventure,Interstellar
+Adult,Happy,Action,The Avengers
+Senior,Relaxed,Drama,The Godfather
+Adult,Relaxed,Comedy,We’re the Millers
+Child,Happy,Action,Cars
+Child,Sad,Drama,The Lion Guard
+Teen,Happy,Comedy,21 Jump Street
+Teen,Sad,Fantasy,The Twilight Saga
+Senior,Relaxed,Romance,The Vow
+Teen,Relaxed,Action,Furious 8
+Adult,Relaxed,Drama,The Shawshank Redemption
+Senior,Sad,Comedy,Billy Madison
+Teen,Excited,Fantasy,The Hobbit: An Unexpected Journey
+Teen,Happy,Romance,The Lucky One
+Adult,Happy,Comedy,The Hangover Part II
+Senior,Sad,Action,The Dark Knight Rises
+Child,Excited,Animation,Monsters Inc.
+Child,Happy,Romance,Peter Pan
+Adult,Relaxed,Fantasy,The Green Mile
+Adult,Excited,Comedy,21 Jump Street
+Adult,Sad,Action,Inception
+Child,Sad,Thriller,Coraline
+Teen,Excited,Drama,Wonder Woman
+Senior,Happy,Comedy,The Intern
+Senior,Sad,Drama,The Judge
+Teen,Sad,Action,The Dark Knight
+Child,Excited,Adventure,The Jungle Book
+Child,Happy,Fantasy,Alice in Wonderland
+Teen,Excited,Action,Justice League
+Adult,Relaxed,Action,Thor
+Senior,Sad,Comedy,The Truman Show
+Senior,Excited,Action,The Fugitive
+Teen,Relaxed,Action,Transformers
+Child,Happy,Fantasy,How to Train Your Dragon
+Child,Sad,Action,Kung Fu Panda
+Teen,Happy,Thriller,The Maze Runner
+Senior,Happy,Action,The Avengers
+Adult,Excited,Drama,The Greatest Showman
+Teen,Sad,Documentary,Won't You Be My Neighbor?
+Adult,Excited,Thriller,A Quiet Place
+Teen,Relaxed,Comedy,Mean Girls 2
+Senior,Excited,Comedy,The Proposal
+Child,Excited,Drama,A Beautiful Day in the Neighborhood
+Teen,Sad,Action,The Fault in Our Stars
+Adult,Happy,Romance,La La Land
+Senior,Relaxed,Drama,Forrest Gump
