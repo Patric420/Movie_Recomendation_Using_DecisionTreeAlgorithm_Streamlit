@@ -43,7 +43,7 @@ if st.button('Recommend Movie'):
                            (df['Preferred Genre'] != 'Horror')]['Movie Recommendation'].unique()
 
     if len(movie_choices) > 0:
-        recommended_movie = np.random.choice(movie_choices)  # Randomly select from available choices
+        recommended_movie = np.random.choice(movie_choices)  
         st.write(f"**Recommended Movie:** {recommended_movie}")
     else:
         st.write("No movies available for the selected options.")
