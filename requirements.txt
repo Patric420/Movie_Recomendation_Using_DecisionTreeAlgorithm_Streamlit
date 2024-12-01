@@ -3,4 +3,3 @@ streamlit
 pandas
 numpy
 matplotlib
-st_state_patch
