@@ -1,11 +1,8 @@
 import streamlit as st
 import pandas as pd
 from sklearn.tree import DecisionTreeClassifier
-from sklearn.model_selection import train_test_split
-from sklearn import tree
-import matplotlib.pyplot as plt
 import numpy as np
-
+import pyperclip
 
 df = pd.read_csv('movie_recommender.csv')
 
@@ -32,6 +29,7 @@ user_input = {
 user_input_encoded = pd.DataFrame([user_input])
 user_input_encoded = pd.get_dummies(user_input_encoded)
 user_input_encoded = user_input_encoded.reindex(columns=X.columns, fill_value=0)
+
 if st.button('Recommend Movie'):
     if user_input['Age'] != 'Child':
         movie_choices = df[(df['Age'] == user_input['Age']) & 
@@ -44,8 +42,13 @@ if st.button('Recommend Movie'):
                            (df['Preferred Genre'] != 'Horror')]['Movie Recommendation'].unique()
 
     if len(movie_choices) > 0:
-        recommended_movie = np.random.choice(movie_choices)  
+        recommended_movie = np.random.choice(movie_choices)
+        
+        st.session_state.recommended_movie = recommended_movie
+        
         st.write(f"**Recommended Movie:** {recommended_movie}")
+        
+
     else:
         st.write("No movies available for the selected options.")
 
