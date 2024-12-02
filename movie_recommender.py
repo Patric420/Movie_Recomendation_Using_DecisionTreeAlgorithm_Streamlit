@@ -12,8 +12,14 @@ y = df['Movie Recommendation']
 model = DecisionTreeClassifier(random_state=42)
 model.fit(X, y)
 
+if 'visit_count' not in st.session_state:
+    st.session_state.visit_count = 0
+st.session_state.visit_count += 1
+
+
 st.title("Movie Recommender Machine Learning System")
 st.header("Get a Movie Recommendation Based on Your Preferences")
+st.write(f"**This page has been visited by {st.session_state.visit_count} users.**")
 
 age = st.selectbox('Select Age Group', ['Child', 'Teen', 'Adult', 'Senior'])
 mood = st.selectbox('Select Mood', ['Happy', 'Sad', 'Excited', 'Relaxed'])
