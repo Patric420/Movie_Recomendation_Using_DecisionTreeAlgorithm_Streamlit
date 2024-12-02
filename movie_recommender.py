@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 from sklearn.tree import DecisionTreeClassifier
 import numpy as np
+import os
 
 df = pd.read_csv('movie_recommender.csv')
 
@@ -12,14 +13,26 @@ y = df['Movie Recommendation']
 model = DecisionTreeClassifier(random_state=42)
 model.fit(X, y)
 
-if 'visit_count' not in st.session_state:
-    st.session_state.visit_count = 0
-st.session_state.visit_count += 1
+counter_file = "visit_counter.txt"
 
+# Initialize or update visit counter
+if not os.path.exists(counter_file):
+    with open(counter_file, "w") as f:
+        f.write("0")
+
+with open(counter_file, "r") as f:
+    visit_count = int(f.read())
+
+visit_count += 1
+
+with open(counter_file, "w") as f:
+    f.write(str(visit_count))
 
 st.title("Movie Recommender Machine Learning System")
 st.header("Get a Movie Recommendation Based on Your Preferences")
-st.write(f"**This page has been visited by {st.session_state.visit_count} users.**")
+
+st.write(f"**This page has been visited {visit_count} times.**")
+
 
 age = st.selectbox('Select Age Group', ['Child', 'Teen', 'Adult', 'Senior'])
 mood = st.selectbox('Select Mood', ['Happy', 'Sad', 'Excited', 'Relaxed'])
