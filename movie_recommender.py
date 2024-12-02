@@ -15,7 +15,7 @@ model.fit(X, y)
 
 counter_file = "visit_counter.txt"
 
-# Initialize or update visit counter
+
 if not os.path.exists(counter_file):
     with open(counter_file, "w") as f:
         f.write("0")
