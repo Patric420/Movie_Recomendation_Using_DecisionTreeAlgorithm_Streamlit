@@ -13,27 +13,10 @@ y = df['Movie Recommendation']
 model = DecisionTreeClassifier(random_state=42)
 model.fit(X, y)
 
-counter_file = "visit_counter.txt"
 
-
-if not os.path.exists(counter_file):
-    with open(counter_file, "w") as f:
-        f.write("0")
-
-with open(counter_file, "r") as f:
-    visit_count = int(f.read())
-
-visit_count += 1
-
-with open(counter_file, "w") as f:
-    f.write(str(visit_count))
 
 st.title("Movie Recommender Machine Learning System")
 st.header("Get a Movie Recommendation Based on Your Preferences")
-
-st.write(f"**This page has been visited {visit_count} times.**")
-
-
 age = st.selectbox('Select Age Group', ['Child', 'Teen', 'Adult', 'Senior'])
 mood = st.selectbox('Select Mood', ['Happy', 'Sad', 'Excited', 'Relaxed'])
 preferred_genre = st.selectbox('Select Preferred Genre', ['Comedy', 'Action', 'Romance', 'Drama', 'Animation', 'Adventure', 'Horror', 'Documentary', 'Thriller'])
@@ -64,10 +47,3 @@ if st.button('Recommend Movie'):
         st.write(f"**Recommended Movie:** {recommended_movie}")
     else:
         st.write("No movies available for the selected options.")
-st.markdown(
-    """
-    ---
-    ## Connect with me on [LinkedIn](https://www.linkedin.com/in/your-profile)
-    """,
-    unsafe_allow_html=True
-)
